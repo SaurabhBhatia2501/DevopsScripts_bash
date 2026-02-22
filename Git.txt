@@ -1,1 +1,149 @@
-this is the main file.
+    1  pwd
+    2  ls -l
+    3  cd Desktop/
+    4  ls -l
+    5  cd DevopsInsiders/Devops_bash/MybashScripts/
+    6  ls -l
+    7  clear
+    8  touch count_files.sh
+    9  vi count_files.sh 
+   10  ls
+   11  cat check_file.sh 
+   12  cat check_create_dir.sh 
+   13  vi count_files.sh 
+   14  clear
+   15  ls
+   16  ./create_empty_files.sh
+   17  ls
+   18  ./count_files.sh
+   19  ls -l *.sh
+   20  ls -l *.sh | wc -l
+   21  vi count_files.sh 
+   22  clear
+   23  ./count_files.sh
+   24  vi count_files.sh 
+   25  ./count_files.sh
+   26  vi count_files.sh 
+   27  find -f *.shh |wc -l
+   28  find --help
+   29  vi count_files.sh 
+   30  find -type f *.sh|wc -l
+   31  find . -type f *.sh|wc -l
+   32  find . -type f -name *.sh|wc -l
+   33  find . -type f -name "*.sh" | wc -l
+   34  vi count_files.sh 
+   35  ./count_files.sh
+   36  vi count_files.sh 
+   37  ./count_files.sh
+   38  find . -type f -name "*.sh"
+   39  find . -type f -name "*.sh"| wc -l
+   40  vi count_files.sh 
+   41  ./count_files.sh
+   42  vi count_files.sh 
+   43  clear
+   44  ls -l
+   45  ./rename_files.sh
+   46  ls -l
+   47  clear
+   48  echo "count of sh files"
+   49      a= $(find . -type f -name "*.sh" | wc -l)
+   50      echo "count of files = $a"
+   51  find . -type f -exec du -h {} + | sort -h | tail -n 1
+   52  du -h
+   53  df -h
+   54  find . -type f -exec du -h {}
+   55  find . -type f -exec du -h {} + | sort -h 
+   56  find . -type f -exec du -h {} + | sort -k 5 -h 
+   57  find . -type f -exec du -h {} + | sort -k 
+   58  find . -type f -exec du -h {} + | sort -k 3
+   59  ls -lh|sort - k3
+   60  ls -lh|sort - k 3
+   61  ls -lrh
+   62  ls -lrh |sort -k 5
+   63  ls -lh
+   64  ls -lh| sort -k 5
+   65  ls -lh| sort -k 5|tail -1
+   66  ls -lh| sort -k -r 5|head -1
+   67  ls -lh| sort -k 5|head -1
+   68  ls -lh| sort -k 5|head -2
+   69  ls -lh| sort -k 5|sort -r|head -2
+   70  ls -lh| sort -k 5|sort -r
+   71  rm -rf *.log
+   72  ls -lh| sort -k -r 5|head -1
+   73  ls -lh| sort -k 5
+   74  touch find_largest_file.sh
+   75  ls -lh| sort -k 5
+   76  vi find_largest_file.sh 
+   77  ./find_largest_file.sh
+   78  vi find_largest_file.sh 
+   79  ./find_largest_file.sh
+   80  find . - type f - exec du -h {} + |sort -h
+   81  find . - type f - exec du -h {} + |sort -r
+   82  find . -type f -exec du -h {} + |sort -r
+   83  find . -type f -exec du -h {} + |sort -k
+   84  find . -type f -exec du -h {} + |sort -k 1
+   85  vi find_largest_file.sh 
+   86  vi find_largest_file.sh 
+   87  find . -type f -exec du -h {}  |sort -r 
+   88  vi find_largest_file.sh 
+   89  ./find_largest_file.sh
+   90  vi find_largest_file.sh 
+   91  ./find_largest_file.sh
+   92  vi find_largest_file.sh 
+   93  ./find_largest_file.sh
+   94  clear
+   95  cat find_largest_file.sh 
+   96  cd Desktop/
+   97  cd DevopsInsiders/
+   98  ls
+   99  cd Devops_bash/
+  100  cd MybashScripts/
+  101  ls -l
+  102  clear
+  103  lscpu
+  104  top
+  105  cd desktop
+  106  mkdir git-learning
+  107  cd git-learning/
+  108  ls -a
+  109  git init
+  110  ls -a
+  111  git remote add origin https://github.com/SaurabhBhatia2501/DevopsScripts_bash/tree/testCode
+  112  git pull
+  113  git remote add origin https://github.com/SaurabhBhatia2501/
+  114  git status
+  115  ls -a
+  116  cd .git/
+  117  ls -a
+  118  cd ..
+  119  git clone https://github.com/SaurabhBhatia2501/DevopsScripts_bash
+  120  ls -l
+  121  cd DevopsScripts_bash/
+  122  ls -l
+  123  history
+  124  git branch
+  125  git branch -a
+  126  git checkout -b test123
+  127  git branch -a
+  128  ls -a
+  129  touch file2.txt
+  130  git status
+  131  git add file2.txt 
+  132  git status
+  133  git commit -m "test123_new_file"
+  134  git push --all
+  135  touch file3.txt
+  136  git status
+  137  git add file3.txt
+  138  git commit -m "test123_new_file2"
+  139  git push --all
+  140  git config --global user.name "SaurabhBhatia2501"
+  141  git cofig --global user.email "saurabhbhatia9654@gmail.com"
+  142  git config --global user.email "saurabhbhatia9654@gmail.com"
+  143  git push --all
+  144  history
+  145  ls -l
+  146  git pull 
+  147  history
+  148  ls -l
+  149  history >>file2.txt
