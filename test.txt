@@ -1,0 +1,273 @@
+    1  pwd
+    2  ls -l
+    3  cd Desktop/
+    4  ls -l
+    5  cd DevopsInsiders/Devops_bash/MybashScripts/
+    6  ls -l
+    7  clear
+    8  touch count_files.sh
+    9  vi count_files.sh 
+   10  ls
+   11  cat check_file.sh 
+   12  cat check_create_dir.sh 
+   13  vi count_files.sh 
+   14  clear
+   15  ls
+   16  ./create_empty_files.sh
+   17  ls
+   18  ./count_files.sh
+   19  ls -l *.sh
+   20  ls -l *.sh | wc -l
+   21  vi count_files.sh 
+   22  clear
+   23  ./count_files.sh
+   24  vi count_files.sh 
+   25  ./count_files.sh
+   26  vi count_files.sh 
+   27  find -f *.shh |wc -l
+   28  find --help
+   29  vi count_files.sh 
+   30  find -type f *.sh|wc -l
+   31  find . -type f *.sh|wc -l
+   32  find . -type f -name *.sh|wc -l
+   33  find . -type f -name "*.sh" | wc -l
+   34  vi count_files.sh 
+   35  ./count_files.sh
+   36  vi count_files.sh 
+   37  ./count_files.sh
+   38  find . -type f -name "*.sh"
+   39  find . -type f -name "*.sh"| wc -l
+   40  vi count_files.sh 
+   41  ./count_files.sh
+   42  vi count_files.sh 
+   43  clear
+   44  ls -l
+   45  ./rename_files.sh
+   46  ls -l
+   47  clear
+   48  echo "count of sh files"
+   49      a= $(find . -type f -name "*.sh" | wc -l)
+   50      echo "count of files = $a"
+   51  find . -type f -exec du -h {} + | sort -h | tail -n 1
+   52  du -h
+   53  df -h
+   54  find . -type f -exec du -h {}
+   55  find . -type f -exec du -h {} + | sort -h 
+   56  find . -type f -exec du -h {} + | sort -k 5 -h 
+   57  find . -type f -exec du -h {} + | sort -k 
+   58  find . -type f -exec du -h {} + | sort -k 3
+   59  ls -lh|sort - k3
+   60  ls -lh|sort - k 3
+   61  ls -lrh
+   62  ls -lrh |sort -k 5
+   63  ls -lh
+   64  ls -lh| sort -k 5
+   65  ls -lh| sort -k 5|tail -1
+   66  ls -lh| sort -k -r 5|head -1
+   67  ls -lh| sort -k 5|head -1
+   68  ls -lh| sort -k 5|head -2
+   69  ls -lh| sort -k 5|sort -r|head -2
+   70  ls -lh| sort -k 5|sort -r
+   71  rm -rf *.log
+   72  ls -lh| sort -k -r 5|head -1
+   73  ls -lh| sort -k 5
+   74  touch find_largest_file.sh
+   75  ls -lh| sort -k 5
+   76  vi find_largest_file.sh 
+   77  ./find_largest_file.sh
+   78  vi find_largest_file.sh 
+   79  ./find_largest_file.sh
+   80  find . - type f - exec du -h {} + |sort -h
+   81  find . - type f - exec du -h {} + |sort -r
+   82  find . -type f -exec du -h {} + |sort -r
+   83  find . -type f -exec du -h {} + |sort -k
+   84  find . -type f -exec du -h {} + |sort -k 1
+   85  vi find_largest_file.sh 
+   86  vi find_largest_file.sh 
+   87  find . -type f -exec du -h {}  |sort -r 
+   88  vi find_largest_file.sh 
+   89  ./find_largest_file.sh
+   90  vi find_largest_file.sh 
+   91  ./find_largest_file.sh
+   92  vi find_largest_file.sh 
+   93  ./find_largest_file.sh
+   94  clear
+   95  cat find_largest_file.sh 
+   96  cd Desktop/
+   97  cd DevopsInsiders/
+   98  ls
+   99  cd Devops_bash/
+  100  cd MybashScripts/
+  101  ls -l
+  102  clear
+  103  lscpu
+  104  top
+  105  git status
+  106  git init
+  107  git branch
+  108  git branches
+  109  git branch -r
+  110  git remote add origin https://github.com/SaurabhBhatia2501/
+  111  ls -a
+  112  git remote add origin https://github.com/SaurabhBhatia2501/
+  113  git status
+  114  git init
+  115  cd .git
+  116  ls -l
+  117  cd ..
+  118  git fetch
+  119  git switch
+  120  git switch main
+  121  pwd
+  122  ls -l
+  123  c d Desktop/
+  124  cd Desktop/
+  125  ls -l
+  126  cd DevopsInsiders/
+  127  cd ..
+  128  cd  git-learning/
+  129  git branch 
+  130  ls -a
+  131  git remote -v
+  132  git remote set-url origin https://github.com/SaurabhBhatia2501/DevopsScripts_bash.git
+  133  git remote -v
+  134  git fetch
+  135  git branch -a
+  136  git switch main n
+  137  git switch main 
+  138  ls -l
+  139  git switch test123
+  140  ls -l
+  141  sit status
+  142  git status
+  143  mv GiT.txt Git.txt
+  144  git status
+  145  git add Git.txt 
+  146  git status
+  147  git commit -m 'rename'
+  148  ls -l
+  149  git add
+  150  git checkout -b test123
+  151  touch newfile.txt
+  152  git add newfile.txt 
+  153  git status
+  154  git add DevopsScripts_bash/
+  155  git status
+  156  git rm --cached DevopsScripts_bash/
+  157  git rm -f --cached DevopsScripts_bash/
+  158  git status
+  159  ls -l
+  160  cd DevopsScripts_bash/
+  161  status
+  162  git status
+  163  cd ..
+  164  cd DevopsScripts_bash/
+  165  ls -l
+  166  mv GiT.txt Git.txt
+  167  git add Git.txt 
+  168  git status
+  169  git commit -m 'rename'
+  170  ls -l
+  171  cd ..
+  172  ls -l
+  173  git branch
+  174  git switch main
+  175  git branch
+  176  git branch
+  177  cd ..
+  178  git branch
+  179  cd git-learning/
+  180  git branch -a
+  181  git brach -d test123
+  182  git branch -d test123
+  183  git branch
+  184  git branch -a
+  185  git push origin --delete test123
+  186  git branch -a
+  187  git push origin --delete DevCode
+  188  git push origin --delete ProdCode
+  189  git push origin --delete testcode
+  190  git push origin --delete testCode
+  191  git branch -a
+  192  git checkout -b test
+  193  touch test.txt
+  194  git status
+  195  git push origin --delete test
+  196  ls -l
+  197  rm test.txt 
+  198  switch main
+  199  git switch main
+  200  git push origin --delete test
+  201  git branch -a
+  202  git push origin --delete test
+  203  cd DevopsScripts_bash/
+  204  git branch -a
+  205  git commit -m 'del'
+  206  git pull
+  207  git branch -a
+  208  pit push all
+  209  git pish --all
+  210  git push --all
+  211  switch main
+  212  git switch main
+  213  git branch -a
+  214  git push --all
+  215  cd ..
+  216  git push --all
+  217  git pull
+  218  git branch -a
+  219  git branch -a
+  220  git pull
+  221  git branch -a
+  222  git push origin --delete test123
+  223  git branch 
+  224  git branch -a
+  225  git fetch --prune
+  226  git push origin --delete test123
+  227  git push origin :test123
+  228  git remote prune origin
+  229  git branch -a
+  230  pwd
+  231  cd ..
+  232  rm -rf git-learning/
+  233  mkdir git-learning 
+  234  cd git-learning/
+  235  history
+  236  ls -a
+  237  git init
+  238  ls -a
+  239  git --version
+  240  git -account
+  241  git - account
+  242  git remote add origin
+  243  git remote add origin https://github.com/SaurabhBhatia2501/
+  244  git remote add origin https://github.com/SaurabhBhatia2501/
+  245  git clone  https://github.com/SaurabhBhatia2501/
+  246  git clone  https://github.com/sidoncode/DevOps-pwSkills-January.git
+  247  cd ..
+  248  ls -l
+  249  rm -rf git-learning/
+  250  mkdir git-learning 
+  251  cd git-learning/
+  252  ls -a
+  253  git init
+  254  ls -a
+  255  git remote add origin https://github.com/SaurabhBhatia2501/
+  256  git clone https://github.com/SaurabhBhatia2501/DevopsScripts_bash.git
+  257  git branch -a
+  258  git branch -a
+  259  git branch 
+  260  switch main
+  261  git switch main
+  262  git clone https://github.com/SaurabhBhatia2501/
+  263  git clone https://github.com/SaurabhBhatia2501/DevopsScripts_bash.git
+  264  ls -l
+  265  cd DevopsScripts_bash/
+  266  ls -l
+  267  git branch -a
+  268  git checkout -b test
+  269  touch test.txt
+  270  git add test.txt 
+  271  git commit -m  "new_file" 
+  272  git push --all
+  273  history >>test.txt
